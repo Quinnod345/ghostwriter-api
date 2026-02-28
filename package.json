@@ -1,0 +1,17 @@
+{
+  "name": "ghostwriter-api",
+  "version": "1.0.0",
+  "description": "REST API that analyzes writing style and generates text to match it",
+  "main": "index.js",
+  "type": "module",
+  "author": "Oneiro",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "openai": "^4.80.0"
+  }
+}
